@@ -1,0 +1,242 @@
+.register_main_div {
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  background-image: url('../../assets/project_managemenet_image_2.jpg');
+  /* 
+    Credits for assest/project_managemenet_image_1.jpg and project_managemenet_image_2.jpg
+    https://pmctraining.com/site/wp-content/uploads/2019/01/project-management-right-for-you-pmc-training.jpg
+    https://1.bp.blogspot.com/-lJYtAmIUKF0/VzwCMg8swZI/AAAAAAAAANA/XObtwtBQRqoNNBVFvXEOrC8yYh5U1Ur4wCK4B/s1600/bigstock-Group-of-Multiethnic-Busy-Peop-66058333.jpg
+  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+/* .register_text_css {
+  font-size: 14px;
+} */
+
+/* .spinner_loader {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+} */
+
+/* .overlay_spinner {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+} */
+
+.register_container {
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register_error_popup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.register_error_popup_container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 14px;
+}
+
+.register_error_popup_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register_error_title {
+  margin-left: 18px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.rigster_error_popup_cancel_icon_component {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.rigster_error_popup_cancel_icon_component:hover {
+  background-color: #ddd;
+}
+
+.rigster_error_popup_cancel_icon {
+  height: 100%;
+}
+
+.register_form_label_error {
+  font-size: 12px;
+}
+
+.register_form {
+  background-color: rgba(255, 255, 255, 0.65);
+  /* background-color: rgba(40, 52, 67, 0.5); */
+  /* display: flex; */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  width: 450px;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.register_card, .register_title {
+  background-color: transparent;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.register_horizontal_divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.register_form_control {
+  outline: none;
+  font-size: 14px;
+}
+
+.register_form_label_input {
+  margin: 0;
+}
+
+.register_popover {
+  background-color: transparent;
+}
+
+.register_popover_email {
+  padding: 10px 10px;
+  margin-bottom: 50px;
+  border-radius: 14px;
+  font-size: 12px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.65);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.register_popover_password {
+  padding: 10px 10px;
+  margin-top: 0px;
+  border-radius: 14px;
+  background-color: rgba(0, 0, 0, 0.65);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.register_popover_arrow {
+  /* color: rgba(255, 255, 255, 0.65); */
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.register_password_checklist > li >  span {
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+}
+
+.register_empty_invalid_text {
+  height: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+.check_box_col {
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.register_button {
+  width: 145px;
+  height: 38px;
+  cursor: pointer;
+  /* margin: 2px; */
+  /* text-align: center; */
+  border: 1px solid #84160f;
+  color: #84160f;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_button:hover {
+  background-color: #84160f;
+  color: white;
+}
+
+.register_button_label {
+  margin-top: .29rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_already_have_an_account_link {
+  color: #84160f;
+  margin-right: 15px;
+}
+
+.register_already_have_an_account_link:hover {
+  color: red;
+}

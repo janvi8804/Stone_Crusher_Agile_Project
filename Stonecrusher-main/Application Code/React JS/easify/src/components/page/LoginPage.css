@@ -1,0 +1,202 @@
+.login_main_div {
+  /* background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); */
+  background-image: url('../../assets/project_managemenet_image_2.jpg');
+  /* 
+    Credits for assest/project_managemenet_image_1.jpg and project_managemenet_image_2.jpg
+    https://pmctraining.com/site/wp-content/uploads/2019/01/project-management-right-for-you-pmc-training.jpg
+    https://1.bp.blogspot.com/-lJYtAmIUKF0/VzwCMg8swZI/AAAAAAAAANA/XObtwtBQRqoNNBVFvXEOrC8yYh5U1Ur4wCK4B/s1600/bigstock-Group-of-Multiethnic-Busy-Peop-66058333.jpg
+  */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.spinner_loader {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* .overlay_spinner {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  cursor: pointer;
+  text-align: center;
+  vertical-align: middle;
+} */
+
+.login_container {
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login_error_popup {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.login_error_popup_container {
+  width: 300px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 14px;
+}
+
+.login_error_popup_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.login_error_title {
+  margin-left: 18px;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.login_error_popup_cancel_icon_component {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login_error_popup_cancel_icon_component:hover {
+  background-color: #ddd;
+}
+
+.login_error_popup_cancel_icon {
+  height: 100%;
+}
+
+.login_form_label_error {
+  font-size: 12px;
+}
+
+.login_form {
+  background-color: rgba(255, 255, 255, 0.65);
+  /* background-color: rgba(40, 52, 67, 0.5); */
+  /* display: flex; */
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(10px);
+  width: 450px;
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.login_card, .login_title {
+  background-color: transparent;
+  text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.login_horizontal_divider {
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.login_form_control {
+  outline: none;
+  font-size: 14px;
+}
+
+.login_form_label_input {
+  margin: 0;
+}
+
+.login_empty_invalid_text {
+  height: 10px;
+  color: red;
+  font-size: 12px;
+}
+
+.check_box_col {
+  align-items: center;
+  text-align: center;
+  align-self: center;
+}
+
+.login_button {
+  width: 145px;
+  height: 38px;
+  cursor: pointer;
+  /* margin: 2px; */
+  /* text-align: center; */
+  border: 1px solid #84160f;
+  color: #84160f;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_button:hover {
+  background-color: #84160f;
+  color: white;
+}
+
+.login_button_label {
+  margin-top: .29rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login_create_account_link {
+  color: #84160f;
+  margin-right: 15px;
+}
+
+.login_create_account_link:hover {
+  color: red;
+}
